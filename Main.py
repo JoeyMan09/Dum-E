@@ -1,7 +1,5 @@
-
 import math
 import time
-
 import cv2
 import serial
 from ultralytics import YOLO
@@ -287,7 +285,6 @@ def detect_object():
 
         while True:
             distance_mm = read_serial()
-
             ret, frame = cap.read()
 
             if not ret:
@@ -427,6 +424,7 @@ def detect_object():
                     last_update_y = now
 
                     print("Tracking enabled")
+
                 else:
                     print("Tracking disabled")
 

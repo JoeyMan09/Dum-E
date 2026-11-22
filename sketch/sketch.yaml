@@ -1,0 +1,11 @@
+profiles:
+  default:
+    fqbn: 
+    platforms:
+      - platform: arduino:zephyr
+    libraries:
+      - dependency: Adafruit BusIO (1.17.4)
+      - Adafruit PWM Servo Driver Library (3.0.3)
+      - Adafruit VL53L1X (3.1.2)
+
+default_profile: default

@@ -1,0 +1,11 @@
+# ignore app cache folder
+.cache/
+
+# Arduino App Lab generated files
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env

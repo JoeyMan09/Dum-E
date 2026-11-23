@@ -387,7 +387,7 @@ def detect_object():
             )
 
             cv2.imshow(
-                "Shmolik - AI Robotic Arm",
+                "Dum-E - AI Robotic Arm",
                 annotated_frame
             )
 

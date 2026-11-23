@@ -91,7 +91,7 @@ def send_servo(arduino, servo, angle):
 
     if accepted_angle != angle:
         raise RuntimeError(
-            f"Servo {servo}: requested {angle}, "
+            f"Servo {servo}: requested {angle}, " 
             f"Arduino returned {accepted_angle}"
         )
 

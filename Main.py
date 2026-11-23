@@ -41,10 +41,8 @@ CENTER_TOLERANCE_Y = 5
 # One degree per command
 MAX_STEP = 1
 
-# Base moves 1 degree / 250 ms on Arduino.
-# Use a little extra time to allow settling.
-UPDATE_INTERVAL_X = 0.35
-UPDATE_INTERVAL_Y = 0.35
+UPDATE_INTERVAL_X = 0.12
+UPDATE_INTERVAL_Y = 0.12
 
 AUTO_TRACKING = False
 

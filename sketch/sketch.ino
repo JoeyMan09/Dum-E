@@ -35,7 +35,7 @@ const int maxAngles[SERVO_COUNT] = {
 
 // Milliseconds per 1-degree movement step
 const unsigned long STEP_INTERVAL_MS[SERVO_COUNT] = {
-    25, 25, 25, 25, 25, 250
+    20, 25, 20, 20, 20, 80
 };
 
 int currentAngles[SERVO_COUNT] = {

@@ -5,7 +5,7 @@ import serial
 from ultralytics import YOLO
 
 # ==================== CONFIGURATION ====================
-
+# Bidirectional sync test
 MODEL_PATH = "yolo11n.pt"
 
 SERIAL_PORT = "COM6"

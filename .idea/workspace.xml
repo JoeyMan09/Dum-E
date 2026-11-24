@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28ae46fd-2f48-474b-8145-664e3f9c50f4" name="Changes" comment="sssss">
+    <list default="true" id="28ae46fd-2f48-474b-8145-664e3f9c50f4" name="Changes" comment="changed name in video clip and increased movement speed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -101,11 +101,29 @@
       <option name="project" value="LOCAL" />
       <updated>1795109691707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed name in video clip">
+      <option name="closed" value="true" />
+      <created>1795463062825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1795463062825</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed name in video clip and increased movement speed">
+      <option name="closed" value="true" />
+      <created>1795463265216</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1795463265216</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sssss" />
-    <option name="LAST_COMMIT_MESSAGE" value="sssss" />
+    <MESSAGE value="changed name in video clip" />
+    <MESSAGE value="changed name in video clip and increased movement speed" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed name in video clip and increased movement speed" />
   </component>
 </project>

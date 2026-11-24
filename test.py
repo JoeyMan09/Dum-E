@@ -2,7 +2,9 @@ import time
 import serial
 
 from arm_calibration import wrist_level
+from forward_kinematics import ForwardKinematics
 
+fk = ForwardKinematics()
 # ==================== CONFIG ====================
 
 PORT = "COM6"
@@ -142,7 +144,17 @@ def move_arm(arduino, shoulder, elbow):
 
     print("Wrist leveling completed.")
     print(f"Final wrist angle: {wrist} degrees")
+    x, y, z = fk.calculate(
+        s2=wrist,
+        s4=elbow,
+        s5=shoulder,
+        s6=90
+    )
 
+    print("\nPredicted gripper position:")
+    print(f"X: {x:.2f} mm")
+    print(f"Y: {y:.2f} mm")
+    print(f"Z: {z:.2f} mm")
 
 # ==================== MAIN ====================
 
